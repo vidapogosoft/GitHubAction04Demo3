@@ -23,7 +23,7 @@ public class Steps {
     {
 
         System.setProperty("webdriver.chrome.driver"
-                , "D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\chromedriver.exe");
+                , "drivers\\chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
