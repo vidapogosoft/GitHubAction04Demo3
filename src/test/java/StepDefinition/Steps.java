@@ -23,7 +23,7 @@ public class Steps {
     {
 
         System.setProperty("webdriver.chrome.driver"
-                , "drivers\\chromedriver.exe");
+                , "drivers//chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
