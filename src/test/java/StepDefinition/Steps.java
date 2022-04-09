@@ -9,6 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Steps {
 
     private WebDriver driver;
@@ -22,8 +24,12 @@ public class Steps {
     public void open_the_web_browser() throws Throwable
     {
 
+        /*
         System.setProperty("webdriver.chrome.driver"
                 , "drivers//chromedriver.exe");
+
+
+         */
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
